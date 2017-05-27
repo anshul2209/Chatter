@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import io from 'socket.io-client'
 // require('../styles.chatapp.css');
-
-let socket = io(`http://localhost:3000`)
-
+let socket;
+if (typeof window !== 'undefined') {
+    socket = io(document.origin);
+}
 export default class ChatApp extends React.Component {
   constructor(props){
   	super(props);
