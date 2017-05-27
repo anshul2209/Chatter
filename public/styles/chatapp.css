@@ -1,0 +1,135 @@
+.appWrapper{
+	margin: 0 auto;
+	border: 1px solid;
+    background: cadetblue;
+}
+.messageWrapper {
+	padding: 10px;
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 5px 0px;
+    font-family: 'Helvetica';
+    font-weight: 300;
+    clear: both;
+}
+.messageWrapper span {
+	font-weight: bold;
+}
+.right {
+	margin-right: 4%;
+    float: right;
+    background: #DCF8C6;
+}
+.left {
+    margin-left: 3%;
+    float: left;
+    background: papayawhip;
+}
+.messageWrapper p {
+	margin: 0px;
+	font-size: 20px;
+    word-wrap: break-word;
+}
+.searchSection{
+      border-bottom: 1px solid lightslategray;
+}
+
+.searchSection input {
+	width: 90%;
+    padding: 5px;
+    border: none;
+    height: 35px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+.friendNameSection{
+    border-left: 1px solid lightslategray;
+    padding: 16px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Helvetica';
+    
+}
+.friendNameSection p{
+    margin: 0px;
+    font-size: 20px;
+}
+.showFriends{
+  width: 25%;
+  float: left;	
+  height: 500px;
+}
+.showFriends .wrapper{
+	border-bottom: 1px solid; */
+    margin: 5px 10px;
+    padding: 10px;
+    background: lightyellow;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+.showFriends .wrapper p {
+	margin: 0px;
+	margin: 0px;
+    font-size: 20px;
+}
+
+.chatSectionWrapper{
+	margin-left: 26%;
+    position: relative;
+}
+.displayMessages{
+	overflow: scroll;
+    height: 540px;
+    border: 1px solid;
+    border-top: none;
+    border-bottom: 1px solid lightslategray;
+    border-left: 1px solid lightslategray;
+    background: url(../resources/back.png);
+}
+.formWrapper{
+	height: 45px;
+    border-left: 1px solid lightslategray;
+}
+.formWrapper input {
+	width: 76%;
+    height: 80%;
+    float: left;
+    border: none;
+    box-sizing: border-box;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.formWrapper button {
+	display: inline-block;
+    height: 75%;
+    color: white;
+    border: none;
+    font-size: 20px;
+    width: 20%;
+    margin: 6px;
+    background-color: darksalmon;
+    border-radius: 5px;
+}
+.none{
+    display: none;
+}
+.startMessage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    border-radius: 10px;
+    transform: translate(-50%,-50%);
+    padding: 19px;
+    background: #DCF8C6;
+    font-size: 20px;
+}
+
+

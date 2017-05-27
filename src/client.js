@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWorld from './components/HelloWorld';
+import ChatApp from './components/ChatApp';
 
-ReactDOM.render(<HelloWorld />, document.getElementById('content'));
-
-
+ReactDOM.render(<ChatApp />, document.getElementById('content'));
