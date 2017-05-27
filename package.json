@@ -1,5 +1,5 @@
 {
-  "name": "Chat App",
+  "name": "Chat-App",
   "version": "1.0.0",
   "description": "Chat Application",
   "main": "lib/server.js",
