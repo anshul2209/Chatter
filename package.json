@@ -1,7 +1,7 @@
 {
-  "name": "universal-react",
+  "name": "Chat App",
   "version": "1.0.0",
-  "description": "Universal React.js starter with the minimum possible code",
+  "description": "Chat Application",
   "main": "lib/server.js",
   "scripts": {
     "build": "./node_modules/babel-cli/bin/babel.js src --out-dir lib --plugins transform-react-jsx --presets es2015",
