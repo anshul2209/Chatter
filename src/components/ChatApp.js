@@ -4,7 +4,7 @@ import io from 'socket.io-client'
 // require('../styles.chatapp.css');
 let socket;
 if (typeof window !== 'undefined') {
-    socket = io(document.origin);
+    socket = io(window.location.origin);
 }
 export default class ChatApp extends React.Component {
   constructor(props){
